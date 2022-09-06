@@ -1,0 +1,60 @@
+#root{
+    font-family: 'Inter';
+    --max-width: '1440px';
+    --min-width: '320px';
+
+    --color-cyan-50: #ECFEFF;
+    --color-cyan-100: #CFFAFE;
+    --color-cyan-200: #A5F3FC;
+    --color-cyan-300: #67E8F9;
+    --color-cyan-400: #22D3EE;
+    --color-cyan-500: #06B6D4;
+    --color-cyan-600: #0891B2;
+    --color-cyan-700: #0E7490;
+    --color-cyan-800: #155E75;
+    --color-cyan-900: #164E63;
+
+    --font-size-title: 1.2rem;
+    --font-size-p: 1rem;
+    --font-size-span: 0.8rem;
+
+    --font-size-sm: 0.1rem;
+    --font-size-md: 0.2rem;
+    --font-size-xl: 0.4rem;
+    
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+h1,h2,h3,h4,h5,h6,p,li{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+input{
+    outline: none;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; 
+}
