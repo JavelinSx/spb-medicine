@@ -1,0 +1,6 @@
+.pacients__form-search{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: repeat(3, 1fr);
+}

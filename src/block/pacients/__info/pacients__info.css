@@ -1,0 +1,5 @@
+.pacients__info{
+    grid-area: ip;
+    height: fit-content;
+    background-color: var(--color-cyan-500);
+}

@@ -1,9 +1,9 @@
-import Authorization from "./Authhorization";
-
+//import Authorization from "./Authhorization";
+import Pacients  from "./Pacients";
 function App() {
   return (
     <div className='page'>
-      <Authorization />
+      <Pacients />
     </div>
   );
 }

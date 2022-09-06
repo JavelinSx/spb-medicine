@@ -1,0 +1,4 @@
+.pacients__list-container{
+    grid-area: lp;
+    height: fit-content;
+}

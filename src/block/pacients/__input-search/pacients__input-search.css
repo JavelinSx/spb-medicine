@@ -1,0 +1,10 @@
+.pacients__input-search{
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.pacients__input-search:focus ~ .pacients__label{
+    visibility: hidden;
+    opacity: 0;
+}
