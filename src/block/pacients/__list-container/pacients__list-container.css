@@ -1,4 +1,4 @@
 .pacients__list-container{
     grid-area: lp;
-    height: fit-content;
+    background: var(--color-cyan-500);
 }

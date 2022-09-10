@@ -58,3 +58,21 @@ input{
     -moz-box-shadow: none;
     box-shadow: none; 
 }
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-cyan-200) var(--color-cyan-800);
+  }
+  
+  /* для Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: var(--color-cyan-200);
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color-cyan-800);
+    border-radius: 5px;
+    border: 3px solid var(--color-cyan-600);
+  }

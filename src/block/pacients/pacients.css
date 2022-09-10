@@ -1,11 +1,8 @@
 .pacients{
-    display: grid;
     background-color: var(--color-cyan-500);
-    width: 80vw;
     height: 100vh;
-    align-items: center;
-    align-content: flex-start;
-    grid-template-areas: 'hp hp hp hp hp hp hp hp'
+
+    /* grid-template-areas: 'hp hp hp hp hp hp hp hp'
                          'wc wc wc wc wc wc wc wc'
                          'pw pw pw pw pw pw pw pw'
                          'pw pw pw pw pw pw pw pw'
@@ -14,6 +11,6 @@
                          'pw pw pw pw pw pw pw pw'
                          'pw pw pw pw pw pw pw pw'
                          'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw';
+                         'pw pw pw pw pw pw pw pw'; */
     
 }

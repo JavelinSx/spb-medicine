@@ -1,0 +1,7 @@
+.pacients__search-container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 23rem;
+    position: relative;
+    justify-content: space-around;
+}
