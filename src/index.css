@@ -37,6 +37,19 @@
 @import url(./block/pacients/__flow-container-info/pacients__flow-container-info.css);
 @import url(./block/pacients/__flow-container-list/pacients__flow-container-list.css);
 
+@import url(./block/pacients/__list-input/pacients__list-input.css);
+@import url(./block/pacients/__input/pacients__input.css);
+@import url(./block/pacients/__label/_info/pacients__label_info.css);
+
+
+@import url(./block/pacients/__button-file-item/pacients__button-file-item.css);
+@import url(./block/pacients/__button-file-title/pacients__button-file-title.css);
+@import url(./block/pacients/__button-file-list/pacients__button-file-list.css);
+@import url(./block/pacients/__button-file-input/pacients__button-file-input.css);
+@import url(./block/pacients/__button-file-read/pacients__button-file-read.css);
+
+@import url(./block/pacients/__button-submit-update/pacients__button-submit-update.css);
+
 
 @import url(./block/button-animation/button-animation.css);
 

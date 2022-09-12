@@ -1,9 +1,9 @@
 .pacients__flow{
     display: grid;
     grid-area: pw;
-    display: flex;
-    flex-direction: row;
-    width: 60rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     /* grid-template-areas:    'hl hl hl hi hi hi hi hi'
                             'lp lp lp ip ip ip ip ip'
                             'lp lp lp ip ip ip ip ip'

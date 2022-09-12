@@ -1,9 +1,7 @@
 .pacients__work-section{
-    grid-area: wc;
     background-color: var(--color-cyan-900);
     padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 4rem;
+    display: grid;
+    grid-template-areas: "s s s s . a a . u u u";
+    gap: 1rem;
 }

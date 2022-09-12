@@ -1,0 +1,7 @@
+.pacients__button-file-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 0.5rem;
+    padding-bottom: 3rem;
+}

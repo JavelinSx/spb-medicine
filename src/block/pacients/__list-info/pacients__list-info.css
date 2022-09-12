@@ -1,3 +1,5 @@
 .pacients__list-info{
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
 }

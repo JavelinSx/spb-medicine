@@ -1,0 +1,4 @@
+.pacients__button-file-item{
+    display: flex;
+    flex-direction: column;
+}

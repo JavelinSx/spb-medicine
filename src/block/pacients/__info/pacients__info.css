@@ -1,5 +1,6 @@
 .pacients__info{
-    grid-area: ip;
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--color-cyan-500);
 }

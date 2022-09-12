@@ -1,0 +1,5 @@
+.pacients__button-file-input{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}

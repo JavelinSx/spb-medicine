@@ -1,9 +1,4 @@
 .pacients__form-search{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-template-columns: auto auto;
-    gap: 20px;
-    width: 100%;
+    grid-area: s;
 
 }

@@ -1,7 +1,7 @@
 .pacients__input-search{
     align-self: center;
     min-height: 2rem;
-    width: 16rem;
+    grid-area: i;
     
 }
 .pacients__input-search:focus ~ .pacients__label{
