@@ -1,16 +1,5 @@
 .pacients{
     background-color: var(--color-cyan-500);
-    height: 100vh;
-
-    /* grid-template-areas: 'hp hp hp hp hp hp hp hp'
-                         'wc wc wc wc wc wc wc wc'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'
-                         'pw pw pw pw pw pw pw pw'; */
-    
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
 }

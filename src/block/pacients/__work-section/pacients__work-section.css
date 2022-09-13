@@ -1,7 +1,3 @@
 .pacients__work-section{
-    background-color: var(--color-cyan-900);
-    padding: 1rem;
-    display: grid;
-    grid-template-areas: "s s s s . a a . u u u";
-    gap: 1rem;
+
 }

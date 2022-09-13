@@ -6,24 +6,20 @@ function Pacients(){
     return(
         <div className='pacients'>
 
-            <div className='pacients__header'>База данных пациентов</div>
-            <div className='pacients__work-section'>
+            <div className='header-admin'>База данных пациентов</div>
+            <div className='section-admin'>
                 <div className="pacients__search-container">
                     <input type='search' id='search' className="form-input pacients__input-search" requaried>
-
                     </input>
                     <label for='search' className="form-label pacients__label">
                         Поиск
                     </label>
                     <button className='pacients__button-search button-animation'>Искать</button>
                 </div>
-
-
                 <button className='pacients__button-add-pacient button-animation'>Добавить&nbsp;пациента</button>
                 <button className='pacients__button-update button-animation'>Обновить&nbsp;список&nbsp;пациентов</button>
 
-            </div>
-            
+            </div>           
             <div className='pacients__flow'>
                 <div className="pacients__flow-container-list">
                     <h2 className='pacients__header-title-list'>
