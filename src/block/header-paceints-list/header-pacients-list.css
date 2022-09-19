@@ -1,0 +1,10 @@
+.header-pacients-list{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    grid-area: hl;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    background-color: var(--color-cyan-700);
+    border-right: 1px solid var(--color-cyan-800);
+}

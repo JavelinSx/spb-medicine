@@ -1,0 +1,10 @@
+.button{
+    background-color: var(--color-cyan-600);
+    color: var(--color-cyan-50);
+    line-height: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: .7rem;
+    width: 60%;
+    min-width: 15rem;
+}

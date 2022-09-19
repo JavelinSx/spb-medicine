@@ -1,6 +1,0 @@
-.pacients__flow-container-list{
-    display: flex;
-    flex-direction: column;
-    grid-column-start: 1;
-    grid-column-end: 1;
-}

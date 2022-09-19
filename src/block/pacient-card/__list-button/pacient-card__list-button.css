@@ -1,0 +1,4 @@
+.pacient-card__list-button{
+    display: flex;
+    flex-direction: column;
+}

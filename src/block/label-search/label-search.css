@@ -1,0 +1,11 @@
+.label-search{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 60%;
+    min-width: 15rem;
+    color: var(--color-cyan-900);
+    cursor: text;
+    opacity: 1;
+    transition: all .3s ease;
+}

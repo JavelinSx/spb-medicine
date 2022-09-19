@@ -1,0 +1,7 @@
+.pacient-card__link{
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    text-decoration: none;
+    color: var(--color-cyan-100);
+}

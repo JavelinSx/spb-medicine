@@ -1,7 +1,0 @@
-.pacients__search-container{
-    position: relative;
-    display: grid;
-    grid-template-areas: "i i s";
-    gap: 1rem;
-
-}

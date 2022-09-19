@@ -1,0 +1,6 @@
+.pacient-card__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-bottom: 0.5rem;
+}

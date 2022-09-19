@@ -1,8 +1,0 @@
-.section-admin{
-    background-color: var(--color-cyan-900);
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: 14rem;
-    gap: 1rem;
-}

@@ -1,0 +1,52 @@
+.admin-pacients{
+    background-color: var(--color-cyan-300);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
+    
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+    .admin-pacients{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) {
+    .admin-pacients{
+        max-width: 668px;
+        display: grid;
+        grid-template-areas: 'h h h h h h h h h'
+                             'm m m m m m m m m'
+                             'm m m m m m m m m'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c';
+
+    }
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1440px) {
+    .admin-pacients{
+        max-width: 668px;
+        grid-template-areas: 'h h h h h h h h h'
+                             'm m m m m m m m m'
+                             'm m m m m m m m m'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c'
+                             'l l l c c c c c c';
+    }
+}

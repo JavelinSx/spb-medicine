@@ -13,9 +13,36 @@
 @import url(./block/authorization/form-submit-button/form-submit-button.css);
 @import url(./block/authorization/form-title/form-title.css);
 
-@import url(./block/pacients/pacients.css);
-@import url(./block/header-admin/header-admin.css);
-@import url(./block/section-admin/section-admin.css);
+@import url(./block/header/header.css);
+@import url(./block/admin-managment/admin-managment.css);
+@import url(./block/admin-pacients/admin-pacients.css);
+@import url(./block/header-paceints-list/header-pacients-list.css);
+@import url(./block/header-pacient-card/header-pacient-card.css);
+@import url(./block/input/input.css);
+@import url(./block/input-search/input-search.css);
+@import url(./block/label-input/label-input.css);
+@import url(./block/label-search/label-search.css);
+@import url(./block/search-container/search-container.css);
+@import url(./block/label-card-input/label-card-input.css);
+@import url(./block/pacient-card-container/pacient-card-container.css);
+@import url(./block/pacient-card/pacient-card.css);
+@import url(./block/pacient-card/__item/pacient-card__item.css);
+@import url(./block/pacient-card/__list/pacient-card__list.css);
+@import url(./block/pacient-card/__file/pacient-card__file.css);
+@import url(./block/pacient-card/__input/pacient-card__input.css);
+@import url(./block/pacient-card/__label/pacient-card__label.css);
+@import url(./block/pacient-card/__link/pacient-card__link.css);
+@import url(./block/pacient-card/__list-button/pacient-card__list-button.css);
+@import url(./block/pacients-list-container/pacients-list-container.css);
+@import url(./block/pacients-list/pacients-list.css);
+@import url(./block/pacients-list/__item/pacients-list__item.css);
+
+@import url(./block/button/button.css);
+@import url(./block/button/__add-pacient/button__add-pacient.css);
+@import url(./block/button/__close-card/button__close-card.css);
+@import url(./block/button/__search/button__search.css);
+@import url(./block/button/__update-pacient/button__update-pacent.css);
+@import url(./block/button/__update-pacients/button__update-paceints.css);
 
 @import url(./block/button-animation/button-animation.css);
 

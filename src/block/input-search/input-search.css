@@ -1,0 +1,29 @@
+.input-search{
+    line-height: 2rem;
+}
+.input-search:focus ~ .label-search{
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+    .input-search{
+        min-width: 18rem;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) {
+    .input-search{
+        min-width: 15rem;
+    }
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1440px) {
+    .input-search{
+        min-width: 15rem;
+    }
+}

@@ -1,7 +1,0 @@
-.pacients__button-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-start: 4;
-    grid-column-end: 9;
-    width: 100%;
-}
