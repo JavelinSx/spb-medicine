@@ -1,8 +1,7 @@
 .form-input{
     background-color: var(--color-cyan-100);
-    width: 100%;
+    width: 12.5rem;
     padding-left: 0.5rem;
-    padding-right: 0.5rem;
     border-radius: 0.5rem;
     line-height: 1.5rem;
     font-size: 0.8rem;

@@ -1,6 +1,5 @@
-.authorization{
-    min-width: 20rem;
-    width: 20rem;
+.authorization-container{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

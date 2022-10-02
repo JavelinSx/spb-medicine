@@ -2,5 +2,7 @@
     background-color: var(--color-cyan-100);
     color: var(--color-cyan-50);
     font-size: 1rem;
-
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
 }

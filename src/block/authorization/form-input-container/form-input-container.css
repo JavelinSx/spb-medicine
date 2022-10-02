@@ -1,7 +1,5 @@
 .form-input-container{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 80%;
+    padding-top: 0.5rem;
+    height: 3rem;
 }

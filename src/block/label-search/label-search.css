@@ -2,7 +2,7 @@
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
-    width: 60%;
+    width: 100%;
     min-width: 15rem;
     color: var(--color-cyan-900);
     cursor: text;

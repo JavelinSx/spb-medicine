@@ -1,6 +1,5 @@
 .form-authorization{
     min-width: 14rem;
-    min-height: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,15 +14,12 @@ and (min-device-width : 320px)
 and (max-device-width : 767px) {
     .form-authorization{
         width: 14rem;
-        height: 14rem;
-
     }
 }
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1440px) {
     .form-authorization{
-
-
+        width: 16rem;
     }
 }

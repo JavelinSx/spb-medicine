@@ -1,12 +1,14 @@
 
 import pdf from '../pdf/test.pdf'
+import {Link} from 'react-router-dom'
 function PacientCard(){
+
     return(
         <div className="pacient-card-container">
             <h2 className='header-pacient-card'>
                     Информация/Результаты анализов
             </h2>
-            <form className='pacient-card'>
+            <form className='pacient-card' type="submit">
                 <ul className='pacient-card__list'>
                     <li className='pacient-card__item'>
                         <label for='visit' className="label-card-input">
@@ -61,34 +63,30 @@ function PacientCard(){
                 <ul className="pacient-card__list pacient-card__list-button">
                     <li className="pacient-card__file">
                         <label for="mrt_prev" className="pacient-card__label">Результаты МРТ (предыдущий)
-                            <a className="button button-animation pacient-card__link" href={pdf} target="_blank" without rel="noopener noreferrer">Открыть файл (.pdf)
-                            </a>
+                            <button className='button button-animation'>Загрузить файл (.pdf)</button>
                         </label>
                         <input type="file" id="mrt_prev" className="pacient-card__input" name="mrt_prev" accept=".pdf"></input>
                     </li>
                     <li className="pacient-card__file">
                         <label for="mrt_last" className="pacient-card__label">Результаты МРТ (предыдущий)
-                            <a className="button button-animation pacient-card__link" href={pdf} target="_blank" without rel="noopener noreferrer">Открыть файл (.pdf)
-                            </a>
+                            <button className='button button-animation'>Загрузить файл (.pdf)</button>
                         </label>
                         <input type="file" id="mrt_last" className="pacient-card__input" name="mrt_last" ></input>
                     </li>
                     <li className="pacient-card__file">
                         <label for="kt_prev" className="pacient-card__label">Результаты КТ (предыдущий)
-                            <a className="button button-animation pacient-card__link" href={pdf} target="_blank" without rel="noopener noreferrer">Открыть файл (.pdf)
-                            </a>
+                            <button className='button button-animation'>Загрузить файл (.pdf)</button>
                         </label>
                         <input type="file" id="kt_prev" className="pacient-card__input" name="kt_prev" ></input>
                     </li>
                     <li className="pacient-card__file">
                         <label for="kt_last" className="pacient-card__label">Результаты КТ (предыдущий)
-                            <a className="button button-animation pacient-card__link" href={pdf} target="_blank" without rel="noopener noreferrer">Открыть файл (.pdf)
-                            </a>
+                            <button className='button button-animation'>Загрузить файл (.pdf)</button>
                         </label>
                         <input type="file" id="kt_last" className="pacient-card__input" name="kt_last" ></input>
                     </li>
                 </ul>
-                <button type="submit" className='button button-animation'>Подтвердить изменения</button>
+                <button className='button button-animation'>Подтвердить изменения</button>
             </form>
         </div>
     )

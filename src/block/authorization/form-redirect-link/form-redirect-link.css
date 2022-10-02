@@ -1,0 +1,5 @@
+.form-redirect-link{
+    text-decoration: none;
+    color: var(--color-cyan-50);
+    cursor: pointer;
+}

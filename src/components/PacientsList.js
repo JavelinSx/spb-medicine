@@ -9,53 +9,8 @@ function PacientsList(){
                 <li className="pacients-list__item button button-animation">
                     Зуев Никита Андреевич
                 </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-                <li className="pacients-list__item button button-animation">
-                    Зуев Никита Андреевич
-                </li>
-        </ul>
-    </div>
+            </ul>
+        </div>
     )
 }
 

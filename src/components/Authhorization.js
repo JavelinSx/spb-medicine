@@ -1,38 +1,26 @@
+import {Link} from 'react-router-dom'
 
-
-function Authorization(){
+function Authorization({title, textButton, textLabel, textLink, link, children}){
     return(
-        <>
-        <div className="authorization">
-            <form className="form-authorization">
-                <h1 className="form-title">
-                    Авторизация
-                </h1>
-                <div className="form-input-container">
-                    <label for='login' className="form-label">
-                        Логин
-                    </label>
-                    <input type='text' id='login' className="form-input" requaried>
-
-                    </input>
-                </div>
-
-                <div className="form-input-container">
-                    <label for='password' className="form-label">
-                        Пароль
-                    </label>
-                    <input type='password' id='password' className="form-input" requaried>
-                        
-                    </input>
-                </div>
-
-
-                <button className="form-submit-button">
-                    Войти
-                </button>
-            </form>
+        <div className="authorization-container">
+            <div className="authorization">
+                <form className="form-authorization">
+                    <h1 className="form-title">
+                        {title}
+                    </h1>
+                    {children}
+                    <button className="form-submit-button">
+                        {textButton}
+                    </button>
+                    <div className="form-redirect">
+                        <span className="form-redirect-label">
+                        {textLabel}
+                        <Link className='form-redirect-link' to={link}>{textLink}</Link>
+                        </span>
+                    </div>
+                </form>
+            </div>
         </div>
-        </>
     )
 }
 
