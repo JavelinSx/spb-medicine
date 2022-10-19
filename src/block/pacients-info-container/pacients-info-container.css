@@ -9,7 +9,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1023px) {
     .pacients-info-container{
         flex-direction: row;
-
+        align-items: flex-start;
     }
 }
 @media only screen 
@@ -17,6 +17,6 @@ and (min-device-width : 1024px)
 and (max-device-width : 1440px) {
     .pacients-info-container{
         flex-direction: row;
-
+        align-items: flex-start;
     }
 }

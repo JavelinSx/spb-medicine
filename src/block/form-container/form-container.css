@@ -1,0 +1,7 @@
+.form-container{
+    position: relative;
+    padding: 2rem;
+    padding-top: 3rem;
+    background-color: var(--color-cyan-200);
+    border-radius: 1rem;
+}

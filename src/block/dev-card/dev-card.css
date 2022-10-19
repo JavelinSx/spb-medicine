@@ -1,0 +1,4 @@
+.dev-card{
+    display: flex;
+    flex-direction: row;
+}

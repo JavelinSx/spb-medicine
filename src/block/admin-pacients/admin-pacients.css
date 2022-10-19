@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    width: 100%;
 }
 @media only screen 
 and (min-device-width : 320px) 
@@ -20,9 +20,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1023px) {
     .admin-pacients{
         max-width: 668px;
-
         column-gap: .5rem;
-
     }
 }
 @media only screen 
@@ -30,7 +28,6 @@ and (min-device-width : 1024px)
 and (max-device-width : 1440px) {
     .admin-pacients{
         max-width: 700px;
-
         column-gap: .5rem;
     }
 }

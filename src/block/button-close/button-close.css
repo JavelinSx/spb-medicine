@@ -1,0 +1,7 @@
+.button-close{
+    min-width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

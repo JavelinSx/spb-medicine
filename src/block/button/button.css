@@ -6,4 +6,5 @@
     cursor: pointer;
     border-radius: .7rem;
     min-width: 13rem;
+    max-height: 2rem;
 }

@@ -1,0 +1,7 @@
+.add-pacient-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    display: flex;
+    padding-bottom: 3rem;
+}

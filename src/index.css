@@ -19,6 +19,7 @@
 
 
 @import url(./block/header/header.css);
+@import url(./block/header-container/header-container.css);
 @import url(./block/admin-managment/admin-managment.css);
 @import url(./block/admin-pacients/admin-pacients.css);
 @import url(./block/header-paceints-list/header-pacients-list.css);
@@ -44,6 +45,7 @@
 @import url(./block/pacients-info-container/pacients-info-container.css);
 
 @import url(./block/button/button.css);
+@import url(./block/button-close/button-close.css);
 @import url(./block/button/__add-pacient/button__add-pacient.css);
 @import url(./block/button/__close-card/button__close-card.css);
 @import url(./block/button/__search/button__search.css);
@@ -52,10 +54,17 @@
 
 @import url(./block/button-animation/button-animation.css);
 
+@import url(./block/swiper-card/swiper-card.css);
+@import url(./block/dev-card/dev-card.css);
+@import url(./block/button/__dev-card/button__dev-card.css);
 
+@import url(./block/popup-add-pacient/popup-add-pacient.css);
+@import url(./block/popup-open/popup-open.css);
 
-
-
+@import url(./block/form-add-pacient/form-add-pacient.css);
+@import url(./block/add-pacient-list/add-pacient-list.css);
+@import url(./block/add-pacient-item/add-pacient-item.css);
+@import url(./block/form-container/form-container.css);
 
 
 
