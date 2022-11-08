@@ -1,9 +1,9 @@
 
-function PacientsList({pacientsList, handleGetInfoSelectPacient, openPopupAddPacient}){
-    console.log(pacientsList)
+function PacientsList({pacientsList, handleOncePacientCards, handleOncePacientInfo, openPopupAddPacient}){
 
     function handleClickPacient(_id){
-        handleGetInfoSelectPacient(_id)
+        handleOncePacientInfo(_id)
+        handleOncePacientCards(_id)
     }
 
     function handleClickAddPacient(){
@@ -21,10 +21,10 @@ function PacientsList({pacientsList, handleGetInfoSelectPacient, openPopupAddPac
 
             <ul className='pacients-list'>
                 {
-                    pacientsList.map((card) => {
+                    pacientsList.map((pacient) => {
                         return (
-                            <li key={card._id} className="button button-animation pacients-list__item" onClick={() => handleClickPacient(card._id)}>
-                                { card.surname + " " + card.name + " " + card.middlename}
+                            <li key={pacient._id} className="button button-animation pacients-list__item" onClick={() => handleClickPacient(pacient._id)}>
+                                { pacient.surname + " " + pacient.name + " " + pacient.middlename}
                             </li>
                         )
                     })
